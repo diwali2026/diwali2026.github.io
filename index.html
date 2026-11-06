@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Happy Diwali! · Diwali Encyclopedia</title>
+<meta name="description" content="Welcome! Tap the sky to light crackers, then enter the Diwali Encyclopedia.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Playfair+Display:wght@700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/landing.css">
+</head>
+<body class="landing">
+<a class="skip-landing" href="overview.html">Skip to encyclopedia</a>
+
+<button type="button" class="sound-toggle" id="sound-toggle" aria-pressed="false" title="Soft pop sounds (off by default)">🔇 Sound off</button>
+
+<div class="landing-stage" id="stage" aria-label="Diwali night sky with fireworks. Tap anywhere to light crackers.">
+  <canvas id="bg-canvas" aria-hidden="true"></canvas>
+  <canvas id="fx-canvas" aria-hidden="true"></canvas>
+
+  <div class="landing-ui">
+    <h1 class="landing-title">Happy Diwali!</h1>
+    <p class="landing-sub">Festival of Lights</p>
+    <p class="landing-hint" id="hint">✨ Tap the sky to light crackers! ✨</p>
+    <a class="enter-btn" href="overview.html" id="enter-btn">Enter the Encyclopedia →</a>
+  </div>
+
+  <p class="landing-footer-note">Slow-motion fireworks · kid-friendly · no downloads needed</p>
+</div>
+
+<script src="js/fireworks.js"></script>
+<script>
+  // Prevent Enter button from also firing a burst underneath (button already pointer-events auto)
+  document.getElementById('enter-btn').addEventListener('pointerdown', function (e) {
+    e.stopPropagation();
+  });
+  document.getElementById('sound-toggle').addEventListener('pointerdown', function (e) {
+    e.stopPropagation();
+  });
+  // Friendlier hint on touch devices
+  if ('ontouchstart' in window) {
+    var h = document.getElementById('hint');
+    if (h) h.textContent = '✨ Tap the sky to light crackers! ✨';
+  }
+</script>
+</body>
+</html>
