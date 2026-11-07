@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home · Diwali Encyclopedia</title>
+<meta name="description" content="Start here: explore every section of the Diwali Encyclopedia and the latest festive posts from X.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Playfair+Display:wght@600;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/home.css">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<meta name="theme-color" content="#6b1d2a">
+</head>
+<body data-page="home" class="home-page">
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="nav-inner">
+    <a class="brand" href="home.html"><span class="brand-icon" aria-hidden="true">🪔</span> Diwali Encyclopedia</a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+        <ul class="nav-links" id="primary-nav">
+      <li><a href="home.html" aria-current="page">Home</a></li><li><a href="overview.html">Overview</a></li><li><a href="history.html">History</a></li><li><a href="ramayana.html">Ramayana & Legends</a></li><li><a href="traditions.html">Traditions</a></li><li><a href="facts.html">Facts</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="videos.html">Videos</a></li><li><a href="social.html">Social Buzz</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button type="button" class="icon-btn" id="theme-toggle" aria-label="Toggle color theme">🌙</button>
+    </div>
+  </div>
+</header>
+
+<main id="main" class="home-main">
+  <section class="home-hero">
+    <p class="home-kicker">🪔 Festival of Lights</p>
+    <h1>Welcome to the Diwali Encyclopedia</h1>
+    <p class="home-lede">Wander gently through stories, traditions and celebrations — pick a section to begin.</p>
+  </section>
+
+  <section class="hub-grid" aria-label="Sections">
+      <a class="hub-card" href="overview.html">
+        <div class="hub-img"><img src="images/diwali-lights.jpg" alt="" loading="lazy"></div>
+        <div class="hub-body"><h3>Overview</h3><p>What Diwali is, when it falls and the five festive days.</p><span class="hub-go" aria-hidden="true">Explore →</span></div>
+      </a>
+      <a class="hub-card" href="history.html">
+        <div class="hub-img"><img src="images/golden-temple.jpg" alt="" loading="lazy"></div>
+        <div class="hub-body"><h3>History</h3><p>From ancient harvest lamps to a festival shared by many faiths.</p><span class="hub-go" aria-hidden="true">Explore →</span></div>
+      </a>
+      <a class="hub-card" href="ramayana.html">
+        <div class="hub-img"><img src="images/happy-diwali.jpg" alt="" loading="lazy"></div>
+        <div class="hub-body"><h3>Ramayana & Legends</h3><p>Rama’s homecoming, Lakshmi, Krishna and other beloved stories.</p><span class="hub-go" aria-hidden="true">Explore →</span></div>
+      </a>
+      <a class="hub-card" href="traditions.html">
+        <div class="hub-img"><img src="images/diya-rangoli.jpg" alt="" loading="lazy"></div>
+        <div class="hub-body"><h3>Traditions</h3><p>Diyas, rangoli, sweets, gifts and family puja customs.</p><span class="hub-go" aria-hidden="true">Explore →</span></div>
+      </a>
+      <a class="hub-card" href="facts.html">
+        <div class="hub-img"><img src="images/lakshmi.jpg" alt="" loading="lazy"></div>
+        <div class="hub-body"><h3>Facts</h3><p>Quick, surprising facts about the Festival of Lights.</p><span class="hub-go" aria-hidden="true">Explore →</span></div>
+      </a>
+      <a class="hub-card" href="gallery.html">
+        <div class="hub-img"><img src="images/peacock-rangoli.jpg" alt="" loading="lazy"></div>
+        <div class="hub-body"><h3>Gallery</h3><p>A calm photo walk through lights, lamps and rangoli.</p><span class="hub-go" aria-hidden="true">Explore →</span></div>
+      </a>
+      <a class="hub-card" href="videos.html">
+        <div class="hub-img"><img src="images/fireworks-bangalore.jpg" alt="" loading="lazy"></div>
+        <div class="hub-body"><h3>Videos</h3><p>Hand-picked festive videos, explainers and celebrations.</p><span class="hub-go" aria-hidden="true">Explore →</span></div>
+      </a>
+      <a class="hub-card" href="social.html">
+        <div class="hub-img"><img src="images/deepavali-celebration.jpg" alt="" loading="lazy"></div>
+        <div class="hub-body"><h3>Social Buzz</h3><p>Live Diwali wishes and posts from across X.</p><span class="hub-go" aria-hidden="true">Explore →</span></div>
+      </a>
+  </section>
+
+  <section class="home-social" aria-labelledby="home-social-title">
+    <div class="home-social-head">
+      <div>
+        <h2 id="home-social-title">Social Buzz</h2>
+        <p>Festive wishes from celebrities and notable accounts on X — refreshed twice a day.</p>
+        <p class="home-stamp" data-social-updated hidden></p>
+      </div>
+      <a class="home-cta" href="social.html">See all on Social Buzz →</a>
+    </div>
+    <div class="social-masonry" data-social-feed data-limit="12">
+      <p class="feed-empty">Loading festive posts…</p>
+    </div>
+    <div class="home-social-foot"><a class="home-cta" href="social.html">See all on Social Buzz →</a></div>
+  </section>
+
+  <div class="page-engage" aria-label="Page engagement">
+    <div class="visitor-stat" data-visitor-wrap hidden>
+      Visitors: <span data-visitor-count>—</span>
+      <span class="visitor-page" data-visitor-page-wrap hidden>(this page: <span data-visitor-page-count>—</span>)</span>
+    </div>
+    <div class="engage-actions">
+      <button type="button" class="like-btn" data-like-btn aria-pressed="false" aria-label="Like this page">
+        <span class="like-icon" aria-hidden="true">🪔</span>
+        <span class="like-label">I like this</span>
+        <span class="like-count" data-like-count>0</span>
+      </button>
+      <button type="button" class="share-btn" data-share-btn>Share</button>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-engage">
+    <div class="visitor-stat" data-visitor-wrap hidden>
+      Visitors: <span data-visitor-count>—</span>
+      <span class="visitor-page" data-visitor-page-wrap hidden>(this page: <span data-visitor-page-count>—</span>)</span>
+    </div>
+    <div class="engage-actions">
+      <button type="button" class="like-btn" data-like-btn aria-pressed="false" aria-label="Like this page">
+        <span class="like-icon" aria-hidden="true">🪔</span>
+        <span class="like-label">I like this</span>
+        <span class="like-count" data-like-count>0</span>
+      </button>
+      <button type="button" class="share-btn" data-share-btn type="button">Share</button>
+    </div>
+  </div>
+  <p><strong>Diwali Encyclopedia</strong> — a test static site for a future personal website.</p>
+  <p class="note">Educational resource compiled from publicly cited sources. Images are from Wikimedia Commons under Creative Commons licenses (see Gallery attributions). Videos are embedded from YouTube under their respective publishers’ terms. © <span id="year"></span></p>
+  <p class="footer-links"><a href="contact.html">Contact</a></p>
+</footer>
+<script src="js/config.js"></script>
+<script src="js/engagement.js"></script>
+<script src="js/main.js"></script>
+<script src="js/social-render.js"></script>
+</body>
+</html>

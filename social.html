@@ -22,10 +22,10 @@
 
 <header class="site-header">
   <div class="nav-inner">
-    <a class="brand" href="index.html"><span class="brand-icon" aria-hidden="true">🪔</span> Diwali Encyclopedia</a>
+    <a class="brand" href="home.html"><span class="brand-icon" aria-hidden="true">🪔</span> Diwali Encyclopedia</a>
     <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Menu</button>
     <ul class="nav-links" id="primary-nav">
-      <li><a href="overview.html">Overview</a></li><li><a href="history.html">History</a></li><li><a href="ramayana.html">Ramayana & Legends</a></li><li><a href="traditions.html">Traditions</a></li><li><a href="facts.html">Facts</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="videos.html">Videos</a></li><li><a href="social.html" aria-current="page">Social Buzz</a></li>
+      <li><a href="home.html">Home</a></li><li><a href="overview.html">Overview</a></li><li><a href="history.html">History</a></li><li><a href="ramayana.html">Ramayana & Legends</a></li><li><a href="traditions.html">Traditions</a></li><li><a href="facts.html">Facts</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="videos.html">Videos</a></li><li><a href="social.html" aria-current="page">Social Buzz</a></li>
     </ul>
     <div class="nav-actions">
       <button type="button" class="icon-btn" id="theme-toggle" aria-label="Toggle color theme">🌙</button>
@@ -53,6 +53,11 @@
 
 <main id="main" class="page">
   <p class="social-note">Posts were hand-picked for family-friendly festive content from notable accounts. No API keys are stored in this static site. If an embed cannot paint, the text card stays visible so you never see a blank box.</p>
+
+  <section id="celebrity-wishes" class="celebrity-wishes" hidden>
+    <h2>🌟 Celebrity wishes</h2>
+    <div class="social-masonry" id="celebrity-grid"></div>
+  </section>
 
   <h2>Featured posts on X</h2>
   <div class="social-masonry" id="tweet-grid">
@@ -410,6 +415,7 @@
 <script src="js/config.js"></script>
 <script src="js/engagement.js"></script>
 <script src="js/main.js"></script>
+<script src="js/social-render.js"></script>
 
 </body>
 </html>

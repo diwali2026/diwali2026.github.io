@@ -2,8 +2,7 @@
   "use strict";
 
   var MIN_IFRAME_H = 140;
-  var grid = document.getElementById("tweet-grid");
-  if (!grid) return;
+  if (!document.querySelector(".tweet-card")) return;
 
   // Prefer fallbacks when screenshots/print/reduced-data, or ?cards=1
   var params = new URLSearchParams(location.search);

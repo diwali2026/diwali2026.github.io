@@ -1,6 +1,6 @@
 /**
  * Diwali landing fireworks — no external libraries.
- * Slow-motion, kid-friendly bursts; click/tap to launch; Web Audio pops (mute default).
+ * Slow-motion, kid-friendly bursts; click/tap to launch; Web Audio pops (sound ON by default; unlocks on first gesture; choice saved).
  */
 (function () {
   "use strict";
@@ -25,8 +25,11 @@
   let last = 0;
   let autoTimer = 0;
   let running = true;
-  let soundOn = false;
+  const SOUND_KEY = "diwali2026-sound";
+  let soundOn = true;
+  try { if (localStorage.getItem(SOUND_KEY) === "off") soundOn = false; } catch (_) {}
   let audioCtx = null;
+  let audioUnlocked = false;
 
   const COLORS = [
     "#ff6b6b", "#ffd93d", "#6bcBFF", "#ff9ff3", "#7bed9f",
@@ -174,9 +177,8 @@
   }
 
   function playPop(vol) {
-    if (!soundOn) return;
+    if (!soundOn || !audioUnlocked || !audioCtx || audioCtx.state !== "running") return;
     try {
-      if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
       const t = audioCtx.currentTime;
       const o = audioCtx.createOscillator();
       const g = audioCtx.createGain();
@@ -472,21 +474,47 @@
 
   // UI wiring
   const soundBtn = document.getElementById("sound-toggle");
+  const soundHint = document.getElementById("sound-hint");
+  function updateSoundUI() {
+    if (soundBtn) {
+      soundBtn.setAttribute("aria-pressed", soundOn ? "true" : "false");
+      soundBtn.textContent = soundOn ? "🔊 Sound on" : "🔇 Sound off";
+      soundBtn.title = soundOn ? "Sound is on — click to mute" : "Sound is off — click to turn on";
+    }
+    if (soundHint) soundHint.hidden = !(soundOn && !audioUnlocked);
+  }
+  function unlockAudio() {
+    try {
+      if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      const done = () => {
+        if (audioCtx.state === "running") {
+          audioUnlocked = true;
+          ["pointerdown", "touchstart", "keydown"].forEach((ev) => window.removeEventListener(ev, unlockAudio, true));
+          updateSoundUI();
+        }
+      };
+      if (audioCtx.state === "suspended") audioCtx.resume().then(done, () => {});
+      else done();
+    } catch (_) {}
+  }
+  ["pointerdown", "touchstart", "keydown"].forEach((ev) => window.addEventListener(ev, unlockAudio, { capture: true, passive: true }));
+  // Some browsers allow audio without a gesture (e.g. after prior engagement).
+  try {
+    audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    if (audioCtx.state === "running") audioUnlocked = true;
+  } catch (_) {}
+  updateSoundUI();
   if (soundBtn) {
     soundBtn.addEventListener("click", (e) => {
       e.stopPropagation();
       soundOn = !soundOn;
-      soundBtn.setAttribute("aria-pressed", soundOn ? "true" : "false");
-      soundBtn.textContent = soundOn ? "🔊 Sound on" : "🔇 Sound off";
-      if (soundOn) {
-        try {
-          if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
-          if (audioCtx.state === "suspended") audioCtx.resume();
-          playPop(0.06);
-        } catch (_) {}
-      }
+      try { localStorage.setItem(SOUND_KEY, soundOn ? "on" : "off"); } catch (_) {}
+      unlockAudio();
+      updateSoundUI();
+      if (soundOn) setTimeout(() => playPop(0.06), 30);
     });
   }
+  window.__diwaliSound = { state: () => ({ soundOn, audioUnlocked, ctx: audioCtx && audioCtx.state }) };
 
   const stage = document.getElementById("stage") || canvas;
   stage.addEventListener("pointerdown", (e) => {

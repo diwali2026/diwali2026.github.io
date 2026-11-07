@@ -213,3 +213,14 @@ html, body.landing {
   0% { opacity: 1; transform: translate(-50%, -50%) rotate(var(--a)) translateY(0) scale(1); }
   100% { opacity: 0; transform: translate(-50%, -50%) rotate(var(--a)) translateY(-42px) scale(0.3); }
 }
+
+/* Sound unlock hint */
+.sound-hint {
+  position: fixed; top: 3.6rem; right: 1rem; z-index: 6; margin: 0;
+  padding: 0.35rem 0.8rem; border-radius: 999px; font-size: 0.82rem;
+  color: #fde9b8; background: rgba(40, 14, 30, 0.55); border: 1px solid rgba(255, 215, 120, 0.35);
+  backdrop-filter: blur(6px); pointer-events: none; animation: hintPulse 2.4s ease-in-out infinite;
+}
+.sound-hint[hidden] { display: none; }
+@keyframes hintPulse { 0%,100% { opacity: 0.65; } 50% { opacity: 1; } }
+@media (prefers-reduced-motion: reduce) { .sound-hint { animation: none; } }

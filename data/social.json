@@ -62,7 +62,8 @@
       "likes": 9579,
       "retweets": 2689,
       "has_media": true,
-      "note": "Dhanteras greetings from the Prime Minister"
+      "note": "Dhanteras greetings from the Prime Minister",
+      "celebrity": true
     },
     {
       "id": "2118616917758116310",
@@ -74,7 +75,8 @@
       "likes": 50070,
       "retweets": 6917,
       "has_media": true,
-      "note": "Deepavali atmosphere greeting"
+      "note": "Deepavali atmosphere greeting",
+      "celebrity": true
     },
     {
       "id": "2118547426810491033",
@@ -86,7 +88,8 @@
       "likes": 5820,
       "retweets": 559,
       "has_media": true,
-      "note": "Celebrity Dhanteras wishes"
+      "note": "Celebrity Dhanteras wishes",
+      "celebrity": true
     },
     {
       "id": "2118707209374990497",
@@ -98,7 +101,8 @@
       "likes": 14,
       "retweets": 3,
       "has_media": true,
-      "note": "Official tourism overview of Diwali across India"
+      "note": "Official tourism overview of Diwali across India",
+      "celebrity": false
     },
     {
       "id": "2118659202633941246",
@@ -110,7 +114,8 @@
       "likes": 36,
       "retweets": 8,
       "has_media": true,
-      "note": "Five-day Diwali season traditions"
+      "note": "Five-day Diwali season traditions",
+      "celebrity": false
     },
     {
       "id": "2117131617147998615",
@@ -122,7 +127,8 @@
       "likes": 2857,
       "retweets": 329,
       "has_media": true,
-      "note": "Singapore festive decorations"
+      "note": "Singapore festive decorations",
+      "celebrity": false
     },
     {
       "id": "2108150392802648330",
@@ -134,7 +140,8 @@
       "likes": 71,
       "retweets": 12,
       "has_media": true,
-      "note": "Little India light-up & festive MRT"
+      "note": "Little India light-up & festive MRT",
+      "celebrity": false
     },
     {
       "id": "2117160496440979514",
@@ -146,7 +153,8 @@
       "likes": 332,
       "retweets": 61,
       "has_media": true,
-      "note": "Singapore PM joins Deepavali festivities"
+      "note": "Singapore PM joins Deepavali festivities",
+      "celebrity": false
     },
     {
       "id": "2118616840859791774",
@@ -158,7 +166,8 @@
       "likes": 364,
       "retweets": 43,
       "has_media": true,
-      "note": "Diplomatic mission Dhanteras puja"
+      "note": "Diplomatic mission Dhanteras puja",
+      "celebrity": false
     },
     {
       "id": "2118637987080876285",
@@ -170,7 +179,8 @@
       "likes": 631,
       "retweets": 43,
       "has_media": true,
-      "note": "Festive food celebration"
+      "note": "Festive food celebration",
+      "celebrity": false
     },
     {
       "id": "2118499503125025197",
@@ -182,7 +192,8 @@
       "likes": 84,
       "retweets": 6,
       "has_media": true,
-      "note": "US Embassy Diwali celebration"
+      "note": "US Embassy Diwali celebration",
+      "celebrity": false
     },
     {
       "id": "2115149199201448406",
@@ -194,7 +205,8 @@
       "likes": 385,
       "retweets": 32,
       "has_media": true,
-      "note": "Little India Deepavali atmosphere video"
+      "note": "Little India Deepavali atmosphere video",
+      "celebrity": false
     },
     {
       "id": "2118636846813225382",
@@ -206,7 +218,8 @@
       "likes": 20,
       "retweets": 4,
       "has_media": true,
-      "note": "Embassy festive video greeting"
+      "note": "Embassy festive video greeting",
+      "celebrity": false
     },
     {
       "id": "2118766336776278312",
@@ -218,7 +231,8 @@
       "likes": 7,
       "retweets": 0,
       "has_media": true,
-      "note": "Public broadcaster coverage of Deepavali puja"
+      "note": "Public broadcaster coverage of Deepavali puja",
+      "celebrity": false
     },
     {
       "id": "2115709795378610341",
@@ -231,7 +245,8 @@
       "retweets": 4,
       "impressions": 6700,
       "has_media": true,
-      "note": "Media network Diwali greeting"
+      "note": "Media network Diwali greeting",
+      "celebrity": false
     },
     {
       "id": "2118750376924967222",
@@ -243,7 +258,8 @@
       "likes": 1,
       "retweets": 0,
       "has_media": true,
-      "note": "Community organisation greeting"
+      "note": "Community organisation greeting",
+      "celebrity": false
     },
     {
       "id": "2117919435239620816",
@@ -255,7 +271,8 @@
       "likes": 6,
       "retweets": 0,
       "has_media": true,
-      "note": "University family greeting with photos"
+      "note": "University family greeting with photos",
+      "celebrity": false
     },
     {
       "id": "2118708188598219063",
@@ -267,7 +284,8 @@
       "likes": 16,
       "retweets": 6,
       "has_media": true,
-      "note": "Citizen engagement platform Diwali-week roundup"
+      "note": "Citizen engagement platform Diwali-week roundup",
+      "celebrity": false
     }
   ],
   "platforms": [
@@ -296,5 +314,6 @@
       "label": "Diwali on Pinterest",
       "url": "https://www.pinterest.com/search/pins/?q=Diwali"
     }
-  ]
+  ],
+  "schema_note": "Each post carries 'celebrity' (bool). Celebrity posts render first on home.html and in the 'Celebrity wishes' section on social.html."
 }
