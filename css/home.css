@@ -6,7 +6,7 @@
 .home-main .home-hero h1 { font-family: var(--font-display); color: #6b2a33 !important; -webkit-text-fill-color: #6b2a33; background: none; font-size: clamp(2rem, 4vw, 2.9rem); line-height: 1.15; margin: 0 0 0.8rem; font-weight: 600; }
 .home-lede { font-family: var(--font-serif); font-size: 1.3rem; color: #6d5a50; margin: 0; }
 
-.hub-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.6rem; margin-bottom: 4rem; }
+.hub-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.6rem; margin-bottom: 4rem; }
 @media (max-width: 1050px) { .hub-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 560px) { .hub-grid { grid-template-columns: 1fr; } }
 .hub-card {
