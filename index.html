@@ -17,7 +17,7 @@
 <link rel="manifest" href="site.webmanifest">
 <meta name="theme-color" content="#6b1d2a">
 </head>
-<body class="landing">
+<body class="landing" data-page="index">
 <a class="skip-landing" href="overview.html">Skip to encyclopedia</a>
 
 <button type="button" class="sound-toggle" id="sound-toggle" aria-pressed="false" title="Soft pop sounds (off by default)">🔇 Sound off</button>
@@ -33,9 +33,26 @@
     <a class="enter-btn" href="overview.html" id="enter-btn">Enter the Encyclopedia →</a>
   </div>
 
+  
+  <div class="landing-engage">
+    <div class="visitor-stat" data-visitor-wrap hidden>
+      Visitors: <span data-visitor-count>—</span>
+      <span class="visitor-page" data-visitor-page-wrap hidden>(this page: <span data-visitor-page-count>—</span>)</span>
+    </div>
+    <button type="button" class="like-btn" data-like-btn aria-pressed="false" aria-label="Like this page">
+      <span class="like-icon" aria-hidden="true">🪔</span>
+      <span class="like-label">I like this</span>
+      <span class="like-count" data-like-count>0</span>
+    </button>
+    <button type="button" class="share-btn" data-share-btn>Share</button>
+  </div>
+  <p class="landing-contact"><a href="contact.html">Contact</a></p>
+
   <p class="landing-footer-note">Slow-motion fireworks · kid-friendly · no downloads needed</p>
 </div>
 
+<script src="js/config.js"></script>
+<script src="js/engagement.js"></script>
 <script src="js/fireworks.js"></script>
 <script>
   // Prevent Enter button from also firing a burst underneath (button already pointer-events auto)
@@ -44,6 +61,9 @@
   });
   document.getElementById('sound-toggle').addEventListener('pointerdown', function (e) {
     e.stopPropagation();
+  });
+  document.querySelectorAll('[data-like-btn],[data-share-btn]').forEach(function (el) {
+    el.addEventListener('pointerdown', function (e) { e.stopPropagation(); });
   });
   // Friendlier hint on touch devices
   if ('ontouchstart' in window) {

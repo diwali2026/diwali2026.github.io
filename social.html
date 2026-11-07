@@ -17,7 +17,7 @@
 <link rel="manifest" href="site.webmanifest">
 <meta name="theme-color" content="#6b1d2a">
 </head>
-<body>
+<body data-page="social">
 <a class="skip-link" href="#main">Skip to content</a>
 
 <header class="site-header">
@@ -370,13 +370,46 @@
     <li>X trends (India WOEID) at curation time included “Happy Diwali” and “Happy Deepavali”.</li>
     <li>Official X embed docs: <a href="https://developer.x.com/en/docs/twitter-for-websites/embedded-tweets/overview" target="_blank" rel="noopener">Embedded Tweets</a>.</li>
   </ol></div>
+
+  <div class="page-engage" aria-label="Page engagement">
+    <div class="visitor-stat" data-visitor-wrap hidden>
+      Visitors: <span data-visitor-count>—</span>
+      <span class="visitor-page" data-visitor-page-wrap hidden>(this page: <span data-visitor-page-count>—</span>)</span>
+    </div>
+    <div class="engage-actions">
+      <button type="button" class="like-btn" data-like-btn aria-pressed="false" aria-label="Like this page">
+        <span class="like-icon" aria-hidden="true">🪔</span>
+        <span class="like-label">I like this</span>
+        <span class="like-count" data-like-count>0</span>
+      </button>
+      <button type="button" class="share-btn" data-share-btn>Share</button>
+    </div>
+  </div>
 </main>
 
+
 <footer class="site-footer">
+  <div class="footer-engage">
+    <div class="visitor-stat" data-visitor-wrap hidden>
+      Visitors: <span data-visitor-count>—</span>
+      <span class="visitor-page" data-visitor-page-wrap hidden>(this page: <span data-visitor-page-count>—</span>)</span>
+    </div>
+    <div class="engage-actions">
+      <button type="button" class="like-btn" data-like-btn aria-pressed="false" aria-label="Like this page">
+        <span class="like-icon" aria-hidden="true">🪔</span>
+        <span class="like-label">I like this</span>
+        <span class="like-count" data-like-count>0</span>
+      </button>
+      <button type="button" class="share-btn" data-share-btn type="button">Share</button>
+    </div>
+  </div>
   <p><strong>Diwali Encyclopedia</strong> — a test static site for a future personal website.</p>
   <p class="note">Educational resource compiled from publicly cited sources. Social embeds load from X when available. © <span id="year"></span></p>
+  <p class="footer-links"><a href="contact.html">Contact</a></p>
 </footer>
+<script src="js/config.js"></script>
+<script src="js/engagement.js"></script>
 <script src="js/main.js"></script>
-<script src="js/social-embeds.js"></script>
+
 </body>
 </html>

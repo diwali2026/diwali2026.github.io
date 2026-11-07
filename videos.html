@@ -17,7 +17,7 @@
 <link rel="manifest" href="site.webmanifest">
 <meta name="theme-color" content="#6b1d2a">
 </head>
-<body>
+<body data-page="videos">
 <a class="skip-link" href="#main">Skip to content</a>
 
 <header class="site-header">
@@ -127,12 +127,46 @@
     <li><a href="https://www.youtube.com/watch?v=HrrW3rO51ak" target="_blank" rel="noopener">Diwali - Festival of Lights</a> — National Geographic.</li><li><a href="https://www.youtube.com/watch?v=LiVoXktqyIs" target="_blank" rel="noopener">Diwali: Festival of Lights</a> — National Geographic.</li><li><a href="https://www.youtube.com/watch?v=VtMwjW6Gzqs" target="_blank" rel="noopener">What Is Diwali and How Is It Celebrated?</a> — Inside Edition.</li><li><a href="https://www.youtube.com/watch?v=fdW6M9_degI" target="_blank" rel="noopener">Diwali celebrated across America</a> — CBS News.</li><li><a href="https://www.youtube.com/watch?v=mPwmXRws7FA" target="_blank" rel="noopener">Diwali - India's Festival of Lights</a> — WildFilmsIndia.</li><li><a href="https://www.youtube.com/watch?v=O6Pm8SDDee4" target="_blank" rel="noopener">Diwali Festival in Rajasthan</a> — KBS Travel.</li>
     <li>YouTube oEmbed endpoint used for verification: <code>https://www.youtube.com/oembed?url=...</code></li>
   </ol></div>
+
+  <div class="page-engage" aria-label="Page engagement">
+    <div class="visitor-stat" data-visitor-wrap hidden>
+      Visitors: <span data-visitor-count>—</span>
+      <span class="visitor-page" data-visitor-page-wrap hidden>(this page: <span data-visitor-page-count>—</span>)</span>
+    </div>
+    <div class="engage-actions">
+      <button type="button" class="like-btn" data-like-btn aria-pressed="false" aria-label="Like this page">
+        <span class="like-icon" aria-hidden="true">🪔</span>
+        <span class="like-label">I like this</span>
+        <span class="like-count" data-like-count>0</span>
+      </button>
+      <button type="button" class="share-btn" data-share-btn>Share</button>
+    </div>
+  </div>
 </main>
 
+
 <footer class="site-footer">
+  <div class="footer-engage">
+    <div class="visitor-stat" data-visitor-wrap hidden>
+      Visitors: <span data-visitor-count>—</span>
+      <span class="visitor-page" data-visitor-page-wrap hidden>(this page: <span data-visitor-page-count>—</span>)</span>
+    </div>
+    <div class="engage-actions">
+      <button type="button" class="like-btn" data-like-btn aria-pressed="false" aria-label="Like this page">
+        <span class="like-icon" aria-hidden="true">🪔</span>
+        <span class="like-label">I like this</span>
+        <span class="like-count" data-like-count>0</span>
+      </button>
+      <button type="button" class="share-btn" data-share-btn type="button">Share</button>
+    </div>
+  </div>
   <p><strong>Diwali Encyclopedia</strong> — a test static site for a future personal website.</p>
-  <p class="note">Educational resource compiled from publicly cited sources. Images are from Wikimedia Commons under Creative Commons licenses (see Gallery attributions). Videos are embedded from YouTube under their respective publishers’ terms. © <span id="year"></span></p>
+  <p class="note">Educational resource compiled from publicly cited sources. Videos are embedded from YouTube under their respective publishers’ terms. © <span id="year"></span></p>
+  <p class="footer-links"><a href="contact.html">Contact</a></p>
 </footer>
+<script src="js/config.js"></script>
+<script src="js/engagement.js"></script>
 <script src="js/main.js"></script>
+
 </body>
 </html>

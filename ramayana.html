@@ -17,7 +17,7 @@
 <link rel="manifest" href="site.webmanifest">
 <meta name="theme-color" content="#6b1d2a">
 </head>
-<body>
+<body data-page="ramayana">
 <a class="skip-link" href="#main">Skip to content</a>
 
 <header class="site-header">
@@ -82,12 +82,46 @@
     </ol></div>
   </article>
   </div>
+
+  <div class="page-engage" aria-label="Page engagement">
+    <div class="visitor-stat" data-visitor-wrap hidden>
+      Visitors: <span data-visitor-count>—</span>
+      <span class="visitor-page" data-visitor-page-wrap hidden>(this page: <span data-visitor-page-count>—</span>)</span>
+    </div>
+    <div class="engage-actions">
+      <button type="button" class="like-btn" data-like-btn aria-pressed="false" aria-label="Like this page">
+        <span class="like-icon" aria-hidden="true">🪔</span>
+        <span class="like-label">I like this</span>
+        <span class="like-count" data-like-count>0</span>
+      </button>
+      <button type="button" class="share-btn" data-share-btn>Share</button>
+    </div>
+  </div>
 </main>
 
+
 <footer class="site-footer">
+  <div class="footer-engage">
+    <div class="visitor-stat" data-visitor-wrap hidden>
+      Visitors: <span data-visitor-count>—</span>
+      <span class="visitor-page" data-visitor-page-wrap hidden>(this page: <span data-visitor-page-count>—</span>)</span>
+    </div>
+    <div class="engage-actions">
+      <button type="button" class="like-btn" data-like-btn aria-pressed="false" aria-label="Like this page">
+        <span class="like-icon" aria-hidden="true">🪔</span>
+        <span class="like-label">I like this</span>
+        <span class="like-count" data-like-count>0</span>
+      </button>
+      <button type="button" class="share-btn" data-share-btn type="button">Share</button>
+    </div>
+  </div>
   <p><strong>Diwali Encyclopedia</strong> — a test static site for a future personal website.</p>
-  <p class="note">Educational resource compiled from publicly cited sources. Images are from Wikimedia Commons under Creative Commons licenses (see Gallery attributions). Videos are embedded from YouTube under their respective publishers’ terms. © <span id="year"></span></p>
+  <p class="note">Educational resource compiled from publicly cited sources. © <span id="year"></span></p>
+  <p class="footer-links"><a href="contact.html">Contact</a></p>
 </footer>
+<script src="js/config.js"></script>
+<script src="js/engagement.js"></script>
 <script src="js/main.js"></script>
+
 </body>
 </html>
