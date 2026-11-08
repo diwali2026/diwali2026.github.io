@@ -1,16 +1,16 @@
 {
-  "last_updated_ist": "07 November 2026, 02:21 AM IST",
-  "last_updated_iso": "2026-11-07T02:21:41.679387+05:30",
+  "last_updated_ist": "08 November 2026, 08:22 AM IST",
+  "last_updated_iso": "2026-11-08T08:22:20.154565+05:30",
   "source": "X API via MCP (search_posts_all, get_users_posts, get_trends_by_woeid, search_news)",
-  "trends_note": "India trends at curation time included 'Happy Diwali' and 'Happy Deepavali'.",
+  "trends_note": "India trends at curation time (Diwali morning) included #HappyDiwali, #FestivalOfLights and #शुभ_दीपावली.",
   "hashtags": [
-    {
-      "tag": "Diwali",
-      "q": "%23Diwali"
-    },
     {
       "tag": "HappyDiwali",
       "q": "%23HappyDiwali"
+    },
+    {
+      "tag": "Diwali",
+      "q": "%23Diwali"
     },
     {
       "tag": "Diwali2026",
@@ -21,61 +21,78 @@
       "q": "%23Deepavali"
     },
     {
-      "tag": "Deepavali2026",
-      "q": "%23Deepavali2026"
-    },
-    {
       "tag": "FestivalOfLights",
       "q": "%23FestivalOfLights"
     },
     {
-      "tag": "Dhanteras",
-      "q": "%23Dhanteras"
+      "tag": "शुभ_दीपावली",
+      "q": "%23%E0%A4%B6%E0%A5%81%E0%A4%AD_%E0%A4%A6%E0%A5%80%E0%A4%AA%E0%A4%BE%E0%A4%B5%E0%A4%B2%E0%A5%80"
     },
     {
-      "tag": "IncredibleIndia",
-      "q": "%23IncredibleIndia"
+      "tag": "Rangoli",
+      "q": "%23Rangoli"
+    },
+    {
+      "tag": "LakshmiPuja",
+      "q": "%23LakshmiPuja"
     }
   ],
   "news_stories": [
     {
-      "title": "Diwali Greetings Light Up Celebrations Worldwide",
-      "url": "https://x.com/i/trending/2118727610393854254"
+      "title": "Ayodhya Lights Up with 30 Lakh Diyas for 10th Deepotsav",
+      "url": "https://x.com/i/trending/2118784495046283537"
     },
     {
-      "title": "India Celebrates Dhanteras with Wishes for Health and Prosperity",
-      "url": "https://x.com/i/trending/2118383928604246092"
+      "title": "Families Light Up Choti Diwali with Rangoli and Warm Wishes",
+      "url": "https://x.com/i/trending/2119047626171781233"
     },
     {
-      "title": "Diwali's Shared Date Highlights Sikh and Jain Traditions",
-      "url": "https://x.com/i/trending/2117572646829203726"
+      "title": "Diwali Fans Defend Beloved Soan Papdi from Memes",
+      "url": "https://x.com/i/trending/2118761298741842049"
+    },
+    {
+      "title": "Surat Businessman Gives Employees Diwali Bonuses on Puja Platters",
+      "url": "https://x.com/i/trending/2119097903452942796"
     }
   ],
   "posts": [
     {
-      "id": "2118523769409200525",
-      "url": "https://x.com/narendramodi/status/2118523769409200525",
-      "username": "narendramodi",
-      "name": "Narendra Modi",
-      "text": "सभी देशवासियों को धनतेरस की अनंत शुभकामनाएं। भगवान धन्वन्तरि की दिव्य कृपा से सभी का जीवन सुख, शांति और उत्तम स्वास्थ्य से सदैव आलोकित रहे।",
-      "created_at": "2026-11-06T02:00:01.000Z",
-      "likes": 9579,
-      "retweets": 2689,
+      "id": "2118546590927655344",
+      "url": "https://x.com/Karthi_Offl/status/2118546590927655344",
+      "username": "Karthi_Offl",
+      "name": "Karthi",
+      "text": "Happy Diwali 💥💥💥💥💥\n\n#Scene https://t.co/CNCztlmQ1o",
+      "created_at": "2026-11-06T03:30:42.000Z",
+      "likes": 31072,
+      "retweets": 0,
       "has_media": true,
-      "note": "Dhanteras greetings from the Prime Minister",
+      "note": "Tamil star Karthi's Diwali wishes",
       "celebrity": true
     },
     {
-      "id": "2118616917758116310",
-      "url": "https://x.com/narendramodi/status/2118616917758116310",
-      "username": "narendramodi",
-      "name": "Narendra Modi",
-      "text": "दीपावली के माहौल में राम और सरयू का आगमन हुआ है। इससे दीपावली का वातावरण और भी पावन एवं दिव्य हो गया है।",
-      "created_at": "2026-11-06T08:10:09.000Z",
-      "likes": 50070,
-      "retweets": 6917,
+      "id": "2118501131806789706",
+      "url": "https://x.com/Suriya_offl/status/2118501131806789706",
+      "username": "Suriya_offl",
+      "name": "Suriya Sivakumar",
+      "text": "Happy Diwali to ONE and all..! \n\n#Scene is now yours to enjoy on the big screen. Hope you celebrate this Diwali with us in theatres!\n\nBest wishes to all the new releases.❤️\n\n#JithuMadhavan #Jyotika #NazriyaFahadh #Naslen @sushintdt #VineethAugustian #AjmalSabu #JayshreeDamodharan https://t.co/y6DO3I8tnv",
+      "created_at": "2026-11-06T00:30:04.000Z",
+      "likes": 30918,
+      "retweets": 0,
       "has_media": true,
-      "note": "Deepavali atmosphere greeting",
+      "note": "Tamil star Suriya wishes everyone a Happy Diwali",
+      "celebrity": true
+    },
+    {
+      "id": "2118864900529480066",
+      "url": "https://x.com/KP24/status/2118864900529480066",
+      "username": "KP24",
+      "name": "Kevin Pietersen🦏",
+      "text": "Happy Diwali to all of my wonderful friends at this most joyous occasion! \nI hope you all have the most wonderful period of love, laughter, and fun. 🙏🏽",
+      "created_at": "2026-11-07T00:35:33.000Z",
+      "likes": 18224,
+      "retweets": 0,
+      "has_media": false,
+      "note": "Cricket legend Kevin Pietersen's Diwali greeting",
       "celebrity": true
     },
     {
@@ -83,25 +100,168 @@
       "url": "https://x.com/akshaykumar/status/2118547426810491033",
       "username": "akshaykumar",
       "name": "Akshay Kumar",
-      "text": "May Goddess Lakshmi bless you and your family with prosperity and good fortune. धनतेरस की ढेर सारी शुभकामनाएँ! 🙏",
+      "text": "May Goddess Lakshmi bless you and your family with prosperity and good fortune. \nधनतेरस की ढेर सारी शुभकामनाएँ! 🙏 https://t.co/nRpQtZ2x6h",
       "created_at": "2026-11-06T03:34:01.000Z",
-      "likes": 5820,
-      "retweets": 559,
+      "likes": 6260,
+      "retweets": 0,
       "has_media": true,
-      "note": "Celebrity Dhanteras wishes",
+      "note": "Bollywood star Akshay Kumar's Dhanteras wishes",
       "celebrity": true
     },
     {
-      "id": "2118707209374990497",
-      "url": "https://x.com/incredibleindia/status/2118707209374990497",
+      "id": "2118926219706306839",
+      "url": "https://x.com/suzannebernert/status/2118926219706306839",
+      "username": "suzannebernert",
+      "name": "Sᴜᴢᴀɴɴᴇ Bᴇʀɴᴇʀᴛ",
+      "text": "Every diya you light today brings double the happiness tomorrow. Wishing you and your family a bright Choti Diwali! 🪔\n#छोटी_दीपावली https://t.co/qbZbP0Baop",
+      "created_at": "2026-11-07T04:39:13.000Z",
+      "likes": 901,
+      "retweets": 0,
+      "has_media": true,
+      "note": "Actress Suzanne Bernert's Choti Diwali wish",
+      "celebrity": true
+    },
+    {
+      "id": "2119090843059634600",
+      "url": "https://x.com/anandmahindra/status/2119090843059634600",
+      "username": "anandmahindra",
+      "name": "anand mahindra",
+      "text": "Happy Diwali to all. \n\nHome, as they say, is where the heart is…\n\nAnd Diwali brings everyone home. \n\nTo the people we love, the memories we cherish, and the light that makes a house a home.\n\n🙏🏽 https://t.co/1vX9gjNPBA",
+      "created_at": "2026-11-07T15:33:22.000Z",
+      "likes": 437,
+      "retweets": 0,
+      "has_media": false,
+      "note": "Anand Mahindra on Diwali bringing everyone home",
+      "celebrity": true
+    },
+    {
+      "id": "2118652110741135463",
+      "url": "https://x.com/SanjeevKapoor/status/2118652110741135463",
+      "username": "SanjeevKapoor",
+      "name": "Sanjeev Kapoor",
+      "text": "We can all agree that Diwali without chakli is like chai without adrak! 😉 So, do give this new version a try! ✨\n\n#sanjeevkapoor #sanjeevkapoorkhazana #creamandonionchakli #diwalisnack #diwalirecipe https://t.co/tt1jE8pgXq",
+      "created_at": "2026-11-06T10:30:00.000Z",
+      "likes": 53,
+      "retweets": 0,
+      "has_media": true,
+      "note": "Celebrity chef Sanjeev Kapoor's Diwali chakli recipe",
+      "celebrity": true
+    },
+    {
+      "id": "2119135297644703751",
+      "url": "https://x.com/RCBTweets/status/2119135297644703751",
+      "username": "RCBTweets",
+      "name": "Royal Challengers Bengaluru",
+      "text": "𝐃𝐞𝐞𝐩𝐚𝐯𝐚𝐥𝐢 𝐇𝐚𝐛𝐛𝐚𝐝𝐚 𝐇𝐚𝐫𝐝𝐢𝐤𝐚 𝐒𝐡𝐮𝐛𝐡𝐚𝐬𝐡𝐚𝐲𝐚𝐠𝐚𝐥𝐮! 🙏❤️‍🔥\n\n#PlayBold #ನಮ್ಮRCB",
+      "created_at": "2026-11-07T18:30:01.000Z",
+      "likes": 5808,
+      "retweets": 0,
+      "has_media": false,
+      "note": "RCB's Deepavali greetings in Kannada",
+      "celebrity": false
+    },
+    {
+      "id": "2119241004662288421",
+      "url": "https://x.com/ChennaiIPL/status/2119241004662288421",
+      "username": "ChennaiIPL",
+      "name": "Chennai Super Kings",
+      "text": "Deepavali is all about togetherness, creating memories and celebrating the joy of being a family. 🫂🥳\n\nWishing everyone a joyful and light-filled Deepavali! 🪔💛\n\n#WhistlePodu #HappyDiwali https://t.co/SDhnqBALKE",
+      "created_at": "2026-11-08T01:30:03.000Z",
+      "likes": 3175,
+      "retweets": 0,
+      "has_media": true,
+      "note": "Chennai Super Kings on family and togetherness",
+      "celebrity": false
+    },
+    {
+      "id": "2119067888770273568",
+      "url": "https://x.com/ChennaiIPL/status/2119067888770273568",
+      "username": "ChennaiIPL",
+      "name": "Chennai Super Kings",
+      "text": "The Diwali vibe hits just right! 😂👀\n\n#WhistlePodu https://t.co/IiDmDAgUus",
+      "created_at": "2026-11-07T14:02:09.000Z",
+      "likes": 5150,
+      "retweets": 0,
+      "has_media": true,
+      "note": "CSK's fun Diwali vibe video",
+      "celebrity": false
+    },
+    {
+      "id": "2119240991160869236",
+      "url": "https://x.com/mipaltan/status/2119240991160869236",
+      "username": "mipaltan",
+      "name": "Mumbai Indians",
+      "text": "Our #OneFamily wishes you a Diwali full of light, love, and happiness! 🪔💙\n\nWhat's your Outfit Of The Day? ✨ https://t.co/pUo0M57leu",
+      "created_at": "2026-11-08T01:30:00.000Z",
+      "likes": 1831,
+      "retweets": 0,
+      "has_media": true,
+      "note": "Mumbai Indians' festive outfit-of-the-day wishes",
+      "celebrity": false
+    },
+    {
+      "id": "2119041793501397030",
+      "url": "https://x.com/KKRiders/status/2119041793501397030",
+      "username": "KKRiders",
+      "name": "KolkataKnightRiders",
+      "text": "A little Diwali surprise, a lot of smiles coming your way. 🪔💜\n\nStay Tuned! https://t.co/J7RF8ljVLj",
+      "created_at": "2026-11-07T12:18:28.000Z",
+      "likes": 1055,
+      "retweets": 0,
+      "has_media": true,
+      "note": "KKR's little Diwali surprise",
+      "celebrity": false
+    },
+    {
+      "id": "2119256091360199157",
+      "url": "https://x.com/BCCI/status/2119256091360199157",
+      "username": "BCCI",
+      "name": "BCCI",
+      "text": "Here's wishing everyone a very happy Diwali 🪔\n\n#TeamIndia https://t.co/srZ20GPf6s",
+      "created_at": "2026-11-08T02:30:00.000Z",
+      "likes": 229,
+      "retweets": 0,
+      "has_media": true,
+      "note": "BCCI and Team India wish everyone a happy Diwali",
+      "celebrity": false
+    },
+    {
+      "id": "2119096925932958100",
+      "url": "https://x.com/SGinIndia/status/2119096925932958100",
+      "username": "SGinIndia",
+      "name": "Singapore in India",
+      "text": "This #Deepavali #Diwali, 🇸🇬 President Tharman and Mrs Jane Ittogi are celebrating with their favourite #SouthIndian #idiyappam also known as #putumayam in many parts of Southeast Asia! - HC Wong\n#Deepavali2026 #Diwali2026 #SouthIndianFood https://t.co/r1nxVPOBMv",
+      "created_at": "2026-11-07T15:57:32.000Z",
+      "likes": 989,
+      "retweets": 0,
+      "has_media": true,
+      "note": "Singapore celebrates Deepavali with South Indian idli",
+      "celebrity": false
+    },
+    {
+      "id": "2119031338695307714",
+      "url": "https://x.com/incredibleindia/status/2119031338695307714",
       "username": "incredibleindia",
       "name": "Incredible!ndia",
-      "text": "Across India, Diwali is celebrated in diverse ways, with each region bringing its own traditions, stories and festive experiences. Experience Naraka Chaturdashi, Ayodhya Deepotsav and more.",
-      "created_at": "2026-11-06T14:08:57.000Z",
-      "likes": 14,
-      "retweets": 3,
+      "text": "From Ayodhya’s spiritual splendour and Amritsar’s vibrant festive celebrations to Jaipur’s royal heritage and Mysuru’s illuminated palace, every destination has a unique story to tell during India’s festive season.\n\nExperience the traditions, festivities and local flavours that https://t.co/QsOIoovxMa",
+      "created_at": "2026-11-07T11:36:55.000Z",
+      "likes": 493,
+      "retweets": 0,
       "has_media": true,
-      "note": "Official tourism overview of Diwali across India",
+      "note": "Diwali celebrations across India's cities",
+      "celebrity": false
+    },
+    {
+      "id": "2118960755718689001",
+      "url": "https://x.com/incredibleindia/status/2118960755718689001",
+      "username": "incredibleindia",
+      "name": "Incredible!ndia",
+      "text": "Diwali is best experienced when you become part of the celebrations.\n\nFrom festive shopping and traditional attire to rangoli, lighting diyas, family gatherings and festive delicacies, every experience adds to the joy of celebrating Diwali.\n\n#IndiaInCelebration #Incredibleindia https://t.co/RG85TBZMCm",
+      "created_at": "2026-11-07T06:56:27.000Z",
+      "likes": 73,
+      "retweets": 0,
+      "has_media": true,
+      "note": "How to experience Diwali in India",
       "celebrity": false
     },
     {
@@ -109,12 +269,51 @@
       "url": "https://x.com/incredibleindia/status/2118659202633941246",
       "username": "incredibleindia",
       "name": "Incredible!ndia",
-      "text": "From the auspicious beginnings of Dhanteras to the celebrations of Bhai Dooj, the Diwali season brings together a series of traditions that reflect India’s rich cultural heritage. #IncredibleIndia #Diwali",
+      "text": "From the auspicious beginnings of Dhanteras to the celebrations of Bhai Dooj, the Diwali season brings together a series of traditions that reflect India’s rich cultural heritage.\n\n#IncredibleIndia #Diwali \n\n1/2 https://t.co/Bj4YfEiv2l",
       "created_at": "2026-11-06T10:58:11.000Z",
-      "likes": 36,
-      "retweets": 8,
+      "likes": 58,
+      "retweets": 0,
       "has_media": true,
       "note": "Five-day Diwali season traditions",
+      "celebrity": false
+    },
+    {
+      "id": "2119014623445954942",
+      "url": "https://x.com/Amul_Coop/status/2119014623445954942",
+      "username": "Amul_Coop",
+      "name": "Amul.coop",
+      "text": "Turning the happiest time of the year into the yummiest time. \nHappy Diwali from Amul. https://t.co/fBCXf2VLAs",
+      "created_at": "2026-11-07T10:30:30.000Z",
+      "likes": 8,
+      "retweets": 0,
+      "has_media": true,
+      "note": "Amul's sweet Happy Diwali",
+      "celebrity": false
+    },
+    {
+      "id": "2119135293387477229",
+      "url": "https://x.com/IRCTCofficial/status/2119135293387477229",
+      "username": "IRCTCofficial",
+      "name": "IRCTC",
+      "text": "This Diwali, may your journey be filled with little moments of joy, plenty of togetherness, new experiences and memories that stay with you long after the celebrations! \n\nWishing you and your loved ones a very Happy Diwali!\n\nIss Diwali, #TravelTohBantaHai\n\n#IRCTCTourism https://t.co/u8jocIEyG3",
+      "created_at": "2026-11-07T18:30:00.000Z",
+      "likes": 5,
+      "retweets": 0,
+      "has_media": true,
+      "note": "IRCTC wishes travellers a joyful Diwali journey",
+      "celebrity": false
+    },
+    {
+      "id": "2119057520878825593",
+      "url": "https://x.com/AsansolKv/status/2119057520878825593",
+      "username": "AsansolKv",
+      "name": "PM SHRI KENDRIYA VIDYALAYA ASANSOL",
+      "text": "PM SHRI KV Asansol,celebrated Diwali through Diya Making &amp; Rangoli Making Competitions. Students enthusiastically showcased their creativity. Handmade diyas were presented to the respected Principal Amit Kr Das Ji, who appreciated their efforts &amp; encouraged their artistic talents https://t.co/wh1giswTor",
+      "created_at": "2026-11-07T13:20:57.000Z",
+      "likes": 1,
+      "retweets": 0,
+      "has_media": true,
+      "note": "School students' diya and rangoli making competitions",
       "celebrity": false
     },
     {
@@ -122,51 +321,12 @@
       "url": "https://x.com/SGinIndia/status/2117131617147998615",
       "username": "SGinIndia",
       "name": "Singapore in India",
-      "text": "Singapore is all decked out to welcome #Deepavali #Diwali. Share your Diwali pictures with us. 🥳 #Deepavali2026 #Diwali2026",
+      "text": "Singapore is all decked out to welcome #Deepavali #Diwali. Share your Diwali pictures with us. 🥳HC Wong\n#Deepavali2026 #Diwali2026\n📷: @asiaonecom @LTAsg https://t.co/raEXd0BC6X",
       "created_at": "2026-11-02T05:48:06.000Z",
-      "likes": 2857,
-      "retweets": 329,
+      "likes": 2867,
+      "retweets": 0,
       "has_media": true,
-      "note": "Singapore festive decorations",
-      "celebrity": false
-    },
-    {
-      "id": "2108150392802648330",
-      "url": "https://x.com/SGinIndia/status/2108150392802648330",
-      "username": "SGinIndia",
-      "name": "Singapore in India",
-      "text": "Dear travellers, are you ready for #Deepavali #Diwali? Singapore is getting ready with Little India light-up and rangoli/diya themed MRT trains.",
-      "created_at": "2026-10-08T10:59:55.000Z",
-      "likes": 71,
-      "retweets": 12,
-      "has_media": true,
-      "note": "Little India light-up & festive MRT",
-      "celebrity": false
-    },
-    {
-      "id": "2117160496440979514",
-      "url": "https://x.com/SGinIndia/status/2117160496440979514",
-      "username": "SGinIndia",
-      "name": "Singapore in India",
-      "text": "Joining the #Deepavali #Diwali festivities and the opening of the new Indian Fine Arts Society campus, PM @LawrenceWongST played the #Sitar.",
-      "created_at": "2026-11-02T07:42:51.000Z",
-      "likes": 332,
-      "retweets": 61,
-      "has_media": true,
-      "note": "Singapore PM joins Deepavali festivities",
-      "celebrity": false
-    },
-    {
-      "id": "2118616840859791774",
-      "url": "https://x.com/SGinIndia/status/2118616840859791774",
-      "username": "SGinIndia",
-      "name": "Singapore in India",
-      "text": "Celebrating the start of #Deepavali #Diwali #Dhanteras #Dhanatrayodashi, our High Commission gathered for a puja to seek blessings for the new year.",
-      "created_at": "2026-11-06T08:09:51.000Z",
-      "likes": 364,
-      "retweets": 43,
-      "has_media": true,
-      "note": "Diplomatic mission Dhanteras puja",
+      "note": "Singapore's festive Deepavali decorations",
       "celebrity": false
     },
     {
@@ -174,117 +334,12 @@
       "url": "https://x.com/SGinIndia/status/2118637987080876285",
       "username": "SGinIndia",
       "name": "Singapore in India",
-      "text": "Celebrating the Festival of Lights with a sumptuous Keralam and South Indian lunch! Wishing everyone a joyful and prosperous Diwali! 😋🪔✨",
+      "text": "Celebrating the Festival of Lights with a sumptuous Keralam and South Indian lunch! On behalf of the SG Consulate in Chennai, wishing everyone a joyful and prosperous Diwali! 😋🪔✨ - CG William 🇸🇬🇮🇳\n\n#Diwali #Deepavali #FoodDiplomacy #SGIndia https://t.co/JJnd30rHlj",
       "created_at": "2026-11-06T09:33:53.000Z",
-      "likes": 631,
-      "retweets": 43,
-      "has_media": true,
-      "note": "Festive food celebration",
-      "celebrity": false
-    },
-    {
-      "id": "2118499503125025197",
-      "url": "https://x.com/ANI/status/2118499503125025197",
-      "username": "ANI",
-      "name": "ANI",
-      "text": "US Ambassador to India, Sergio Gor, tweets: \"Great to celebrate Diwali at our Embassy in New Delhi. Wishing all who are observing the holiday a very Happy Diwali.\"",
-      "created_at": "2026-11-06T00:23:36.000Z",
-      "likes": 84,
-      "retweets": 6,
-      "has_media": true,
-      "note": "US Embassy Diwali celebration",
-      "celebrity": false
-    },
-    {
-      "id": "2115149199201448406",
-      "url": "https://x.com/ANI/status/2115149199201448406",
-      "username": "ANI",
-      "name": "ANI",
-      "text": "#WATCH | Singapore: Little India comes alive with vibrant lights, festive markets, traditional attire, Indian sweets and Bollywood music ahead of Deepavali.",
-      "created_at": "2026-10-27T18:30:41.000Z",
-      "likes": 385,
-      "retweets": 32,
-      "has_media": true,
-      "note": "Little India Deepavali atmosphere video",
-      "celebrity": false
-    },
-    {
-      "id": "2118636846813225382",
-      "url": "https://x.com/IndiaToday/status/2118636846813225382",
-      "username": "IndiaToday",
-      "name": "IndiaToday",
-      "text": "Israel's Embassy in India marked Diwali with a special video message for Indians, sharing a festive greeting and wishing India a Happy Diwali.",
-      "created_at": "2026-11-06T09:29:21.000Z",
-      "likes": 20,
-      "retweets": 4,
-      "has_media": true,
-      "note": "Embassy festive video greeting",
-      "celebrity": false
-    },
-    {
-      "id": "2118766336776278312",
-      "url": "https://x.com/DDNewslive/status/2118766336776278312",
-      "username": "DDNewslive",
-      "name": "DD News",
-      "text": "The High Commission of Singapore in India celebrates the beginning of Deepavali and Dhanteras with a puja, seeking blessings for the New Year. Warm wishes for Diwali 2026.",
-      "created_at": "2026-11-06T18:03:54.000Z",
-      "likes": 7,
+      "likes": 1344,
       "retweets": 0,
       "has_media": true,
-      "note": "Public broadcaster coverage of Deepavali puja",
-      "celebrity": false
-    },
-    {
-      "id": "2115709795378610341",
-      "url": "https://x.com/ETNOWlive/status/2115709795378610341",
-      "username": "ETNOWlive",
-      "name": "ET NOW",
-      "text": "🪔✨ Every diya lights a dream. This Diwali, celebrate the spirit of prosperity, ambition and a rising India. Rise With India. Happy Diwali from ET NOW!",
-      "created_at": "2026-10-29T07:38:17.000Z",
-      "likes": 1,
-      "retweets": 4,
-      "impressions": 6700,
-      "has_media": true,
-      "note": "Media network Diwali greeting",
-      "celebrity": false
-    },
-    {
-      "id": "2118750376924967222",
-      "url": "https://x.com/STEPSociety/status/2118750376924967222",
-      "username": "STEPSociety",
-      "name": "STEP",
-      "text": "Warm wishes to everyone celebrating Diwali. As communities around the world mark the Festival of Lights, we wish you and your loved ones a joyful and peaceful celebration. Happy Diwali!",
-      "created_at": "2026-11-06T17:00:28.000Z",
-      "likes": 1,
-      "retweets": 0,
-      "has_media": true,
-      "note": "Community organisation greeting",
-      "celebrity": false
-    },
-    {
-      "id": "2117919435239620816",
-      "url": "https://x.com/madhavuniversty/status/2117919435239620816",
-      "username": "madhavuniversty",
-      "name": "Madhav University",
-      "text": "🪔 May the festival of lights bring happiness, prosperity, peace, and success to everyone. Wishing you all a very Happy Diwali! Warm Wishes from Madhav University. ✨",
-      "created_at": "2026-11-04T09:58:37.000Z",
-      "likes": 6,
-      "retweets": 0,
-      "has_media": true,
-      "note": "University family greeting with photos",
-      "celebrity": false
-    },
-    {
-      "id": "2118708188598219063",
-      "url": "https://x.com/mygovindia/status/2118708188598219063",
-      "username": "mygovindia",
-      "name": "MyGovIndia",
-      "text": "Not me thinking Diwali is the only reason to celebrate this week! India, meanwhile, has had its own share of big moments this week…",
-      "created_at": "2026-11-06T14:12:50.000Z",
-      "likes": 16,
-      "retweets": 6,
-      "has_media": true,
-      "note": "Citizen engagement platform Diwali-week roundup",
+      "note": "Festive Deepavali food celebration",
       "celebrity": false
     }
   ],
