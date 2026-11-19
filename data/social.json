@@ -1,8 +1,8 @@
 {
-  "last_updated_ist": "18 November 2026, 11:55 AM IST",
-  "last_updated_iso": "2026-11-18T11:55:46.656450+05:30",
-  "source": "X API via MCP (search_posts_all, get_users_posts, get_posts_by_ids, get_trends_by_woeid, search_news)",
-  "trends_note": "India trends at curation time (18 Nov) had moved on from Diwali (Akshay Navami was trending); the hashtags below are the main Diwali tags from this season. Post likes refreshed on 18 Nov.",
+  "last_updated_ist": "19 November 2026, 1:19 PM IST",
+  "last_updated_iso": "2026-11-19T13:19:23.993052+05:30",
+  "source": "X API via MCP (search_posts_all, get_posts_by_ids, get_trends_by_woeid, search_news)",
+  "trends_note": "India trends at curation time (19 Nov) had moved on from Diwali (International Men's Day and cricket were trending); the hashtags below keep this season's Diwali tags and add Dev Deepavali / Kartik Purnima ahead of 24 Nov in Varanasi. Engagement counts refreshed on 19 Nov.",
   "hashtags": [
     {
       "tag": "HappyDiwali",
@@ -29,12 +29,12 @@
       "q": "%23FestivalOfLights"
     },
     {
-      "tag": "BhaiDooj",
-      "q": "%23BhaiDooj"
+      "tag": "DevDeepavali",
+      "q": "%23DevDeepavali"
     },
     {
-      "tag": "GovardhanPuja",
-      "q": "%23GovardhanPuja"
+      "tag": "KartikPurnima",
+      "q": "%23KartikPurnima"
     }
   ],
   "news_stories": [
@@ -43,16 +43,16 @@
       "url": "https://x.com/i/trending/2120255087109169214"
     },
     {
-      "title": "Chennai's Deepavali Lights Stun from Above",
-      "url": "https://x.com/i/trending/2119716534339903937"
-    },
-    {
       "title": "Chennai's Diwali Fireworks Light Up Skyline in Drone Footage",
       "url": "https://x.com/i/trending/2119668131836858859"
     },
     {
-      "title": "India Celebrates Bhai Dooj with Tilak Rituals and Sibling Love",
+      "title": "India Celebrates Bhai Dooj with Sibling Bonds and Tilak Rituals",
       "url": "https://x.com/i/trending/2120012227528839404"
+    },
+    {
+      "title": "Gujaratis Celebrate Labh Panchami with Prayers for Prosperity",
+      "url": "https://x.com/i/trending/2121433487601520931"
     },
     {
       "title": "BTS V Joins Indian Fans in Diwali Celebrations on Weverse",
@@ -67,8 +67,8 @@
       "name": "Jr NTR",
       "text": "మీకు, మీ కుటుంబ సభ్యులకు దీపావళి శుభాకాంక్షలు. Wishing you all a very Happy Diwali.",
       "created_at": "2026-11-08T04:53:48.000Z",
-      "likes": 41322,
-      "retweets": 7559,
+      "likes": 41311,
+      "retweets": 7664,
       "has_media": false,
       "note": "Telugu star Jr NTR's Diwali wishes for every family",
       "celebrity": true
@@ -80,8 +80,8 @@
       "name": "Tim Cook",
       "text": "Happy Diwali to everyone celebrating around the world! May the light of this festival brighten your year ahead. Shot on iPhone 18 Pro Max by Gursimran Basra. https://t.co/Np87gNGxg0",
       "created_at": "2026-11-08T04:00:00.000Z",
-      "likes": 40905,
-      "retweets": 2186,
+      "likes": 40900,
+      "retweets": 2180,
       "has_media": true,
       "note": "Apple CEO Tim Cook's worldwide Diwali greeting",
       "celebrity": true
@@ -93,10 +93,23 @@
       "name": "Allu Arjun",
       "text": "Happy Diwali to each and everyone of you. 🪔 https://t.co/GoGz6gQaCI",
       "created_at": "2026-11-08T07:42:50.000Z",
-      "likes": 34521,
-      "retweets": 3078,
+      "likes": 34524,
+      "retweets": 3083,
       "has_media": true,
       "note": "Telugu star Allu Arjun wishes everyone a Happy Diwali",
+      "celebrity": true
+    },
+    {
+      "id": "2119333244143571062",
+      "url": "https://x.com/AlwaysRamCharan/status/2119333244143571062",
+      "username": "AlwaysRamCharan",
+      "name": "Ram Charan",
+      "text": "Wishing you all a very Happy Diwali 🪔❤️\n\nMay this festival bring happiness, peace, and prosperity to you and your loved ones. \n\nHave a safe and beautiful Diwali ✨",
+      "created_at": "2026-11-08T07:36:35.000Z",
+      "likes": 33265,
+      "retweets": 4323,
+      "has_media": false,
+      "note": "Telugu star Ram Charan's warm Diwali wishes for every family",
       "celebrity": true
     },
     {
@@ -107,7 +120,7 @@
       "text": "Happy Diwali to all. Love and light. 🌼🌸🌺🙏❤️ https://t.co/bOsE4VBbfm",
       "created_at": "2026-11-08T13:25:59.000Z",
       "likes": 29758,
-      "retweets": 1072,
+      "retweets": 1069,
       "has_media": true,
       "note": "Comedian-actor Sunil Grover sends love and light",
       "celebrity": true
@@ -119,10 +132,23 @@
       "name": "Sachin Tendulkar",
       "text": "Diwali drive with Bouncer who doesn't want to leave the car 🐶🚗\n\nWishing you and your families a very happy Diwali 🪔 https://t.co/bkuDkaM7aR",
       "created_at": "2026-11-08T12:52:30.000Z",
-      "likes": 21541,
-      "retweets": 820,
+      "likes": 21527,
+      "retweets": 814,
       "has_media": true,
       "note": "Sachin Tendulkar's Diwali drive with his dog Bouncer",
+      "celebrity": true
+    },
+    {
+      "id": "2119421752988332512",
+      "url": "https://x.com/TheDeverakonda/status/2119421752988332512",
+      "username": "TheDeverakonda",
+      "name": "Vijay Deverakonda",
+      "text": "When you find a way to do GOMA (Homam) in Japan on Happy DIWALI ❤️\n\nSending you all lots of love, biggest hugs and Diwali wishes to you and all your families from the Deverakonda family ❤️ https://t.co/g5lQmjlGtI",
+      "created_at": "2026-11-08T13:28:17.000Z",
+      "likes": 15411,
+      "retweets": 802,
+      "has_media": true,
+      "note": "Vijay Deverakonda's family Diwali wishes after a homam in Japan",
       "celebrity": true
     },
     {
@@ -132,8 +158,8 @@
       "name": "Nani",
       "text": "Happy Diwali everyone ♥️\n\nమీకు, మీ కుటుంబ సభ్యులకు దీపావళి శుభాకాంక్షలు! 🪔",
       "created_at": "2026-11-08T14:48:01.000Z",
-      "likes": 14716,
-      "retweets": 705,
+      "likes": 14715,
+      "retweets": 703,
       "has_media": false,
       "note": "Telugu star Nani's Diwali wishes in Telugu and English",
       "celebrity": true
@@ -145,8 +171,8 @@
       "name": "Rishab Shetty",
       "text": "Celebrating Deepavali with beautiful moments, bright lights and lots of love. ❤️\n\nMay this festival bring joy, peace and happiness into every home.\nWishing everyone a very happy Deepavali.🪔🎇\n\nನಾಡಿನ ಸಮಸ್ತ ಜನತೆಗೆ ದೀಪಾವಳಿಯ ಹಾರ್ದಿಕ ಶುಭಾಶಯಗಳು! 🪔\n\n#HappyDiwali #HappyDeepavali https://t.co/S6AF2ZOQBT",
       "created_at": "2026-11-10T12:38:24.000Z",
-      "likes": 14114,
-      "retweets": 533,
+      "likes": 14112,
+      "retweets": 675,
       "has_media": true,
       "note": "Kantara star Rishab Shetty's Deepavali wishes in Kannada",
       "celebrity": true
@@ -158,8 +184,8 @@
       "name": "Sivakarthikeyan",
       "text": "அனைவருக்கும் இனிய தீபாவளி நல்வாழ்த்துகள் 😊❤️\n\n#Seyon #HappyDiwali https://t.co/jrn2TgFLsV",
       "created_at": "2026-11-08T08:32:37.000Z",
-      "likes": 11838,
-      "retweets": 1272,
+      "likes": 11841,
+      "retweets": 1277,
       "has_media": true,
       "note": "Tamil star Sivakarthikeyan's Deepavali greetings",
       "celebrity": true
@@ -171,8 +197,8 @@
       "name": "Ananya Panday",
       "text": "I know these are very proper pictures but I really did have the best Diwali ever 🥰✨️ https://t.co/SBdAOsIzju",
       "created_at": "2026-11-09T08:59:18.000Z",
-      "likes": 9236,
-      "retweets": 417,
+      "likes": 9247,
+      "retweets": 416,
       "has_media": true,
       "note": "Ananya Panday on having the best Diwali ever",
       "celebrity": true
@@ -184,8 +210,8 @@
       "name": "Yuzvendra Chahal",
       "text": "Happy Diwali 🪔 https://t.co/tpinCV6YaY",
       "created_at": "2026-11-08T14:39:09.000Z",
-      "likes": 8318,
-      "retweets": 150,
+      "likes": 8315,
+      "retweets": 151,
       "has_media": true,
       "note": "Cricketer Yuzvendra Chahal's Happy Diwali",
       "celebrity": true
@@ -197,8 +223,8 @@
       "name": "Chennai Super Kings",
       "text": "Diwali is never complete without THALA DIWALI! 😍✨ \n\n#WhistlePodu #HappyDiwali \n📸 : Sakshi Singh https://t.co/8IaTdMxJLy",
       "created_at": "2026-11-08T17:27:20.000Z",
-      "likes": 26775,
-      "retweets": 1702,
+      "likes": 26769,
+      "retweets": 1700,
       "has_media": true,
       "note": "CSK's 'Thala Diwali' family photo",
       "celebrity": false
@@ -210,7 +236,7 @@
       "name": "Chennai Super Kings",
       "text": "Welcome to our Diwali party!✨\n\n#WhistlePodu #SuperDiwali https://t.co/G29bbeL6kp",
       "created_at": "2026-11-08T14:31:28.000Z",
-      "likes": 10568,
+      "likes": 10563,
       "retweets": 416,
       "has_media": true,
       "note": "CSK welcomes fans to their Diwali party",
@@ -223,7 +249,7 @@
       "name": "Royal Challengers Bengaluru",
       "text": "𝐃𝐞𝐞𝐩𝐚𝐯𝐚𝐥𝐢 𝐇𝐚𝐛𝐛𝐚𝐝𝐚 𝐇𝐚𝐫𝐝𝐢𝐤𝐚 𝐒𝐡𝐮𝐛𝐡𝐚𝐬𝐡𝐚𝐲𝐚𝐠𝐚𝐥𝐮! 🙏❤️‍🔥\n\n#PlayBold #ನಮ್ಮRCB",
       "created_at": "2026-11-07T18:30:01.000Z",
-      "likes": 10462,
+      "likes": 10458,
       "retweets": 673,
       "has_media": false,
       "note": "RCB's Deepavali greetings in Kannada",
@@ -236,8 +262,8 @@
       "name": "Chennai Super Kings",
       "text": "To all those who are away from home this Diwali and couldn't spend the day with your families, here's our wish to you!\n\nYou belong to the Yellove family, wherever you go! 💛\n\nHappy Diwali and the sweetest hugs to you! 🫂✨ \n\n#HappyDiwali",
       "created_at": "2026-11-08T08:35:07.000Z",
-      "likes": 9184,
-      "retweets": 534,
+      "likes": 9182,
+      "retweets": 536,
       "has_media": false,
       "note": "CSK sends hugs to everyone away from home this Diwali",
       "celebrity": false
@@ -249,8 +275,8 @@
       "name": "Mumbai Indians",
       "text": "Our #OneFamily wishes you a Diwali full of light, love, and happiness! 🪔💙\n\nWhat's your Outfit Of The Day? ✨ https://t.co/pUo0M57leu",
       "created_at": "2026-11-08T01:30:00.000Z",
-      "likes": 9154,
-      "retweets": 592,
+      "likes": 9157,
+      "retweets": 584,
       "has_media": true,
       "note": "Mumbai Indians' festive outfit-of-the-day wishes",
       "celebrity": false
@@ -262,7 +288,7 @@
       "name": "Royal Challengers Bengaluru",
       "text": "Deepavali night. ✨\nನಮ್ಮ Chinnaswamy. 🏟️\n“Kohli ko bowling do” chants. 🗣️\n\nPeak memory 🥹 https://t.co/DwM6hibyGI",
       "created_at": "2026-11-08T16:00:48.000Z",
-      "likes": 9033,
+      "likes": 9034,
       "retweets": 396,
       "has_media": true,
       "note": "RCB remembers a Deepavali night at Chinnaswamy",
@@ -275,8 +301,8 @@
       "name": "Chennai Super Kings",
       "text": "Scenes from Diwali ‘26! ✨🪔\n\n#WhistlePodu #SuperDiwali https://t.co/piMVbDt9fs",
       "created_at": "2026-11-09T16:35:53.000Z",
-      "likes": 8465,
-      "retweets": 216,
+      "likes": 8468,
+      "retweets": 219,
       "has_media": true,
       "note": "CSK's scenes from Diwali '26",
       "celebrity": false
@@ -288,7 +314,7 @@
       "name": "BCCI",
       "text": "Here's wishing everyone a very happy Diwali 🪔\n\n#TeamIndia https://t.co/srZ20GPf6s",
       "created_at": "2026-11-08T02:30:00.000Z",
-      "likes": 7029,
+      "likes": 7025,
       "retweets": 362,
       "has_media": true,
       "note": "BCCI and Team India wish everyone a happy Diwali",
@@ -302,9 +328,22 @@
       "text": "Amul Topical: Wishing everyone a happy Diwali https://t.co/UQLTHNPuQ4",
       "created_at": "2026-11-08T02:16:00.000Z",
       "likes": 4303,
-      "retweets": 256,
+      "retweets": 255,
       "has_media": true,
       "note": "Amul's classic topical wishes everyone a happy Diwali",
+      "celebrity": false
+    },
+    {
+      "id": "2119271190699131201",
+      "url": "https://x.com/DelhiCapitals/status/2119271190699131201",
+      "username": "DelhiCapitals",
+      "name": "Delhi Capitals",
+      "text": "Dilliwalon ki taraf se Shubh Deepavali! 💙❤️ https://t.co/NJ2ktXAQON",
+      "created_at": "2026-11-08T03:30:00.000Z",
+      "likes": 3022,
+      "retweets": 94,
+      "has_media": true,
+      "note": "Delhi Capitals' Shubh Deepavali greeting for the city",
       "celebrity": false
     },
     {
@@ -314,8 +353,8 @@
       "name": "Singapore in India",
       "text": "Singapore is all decked out to welcome #Deepavali #Diwali. Share your Diwali pictures with us. 🥳HC Wong\n#Deepavali2026 #Diwali2026\n📷: @asiaonecom @LTAsg https://t.co/raEXd0BC6X",
       "created_at": "2026-11-02T05:48:06.000Z",
-      "likes": 2870,
-      "retweets": 332,
+      "likes": 2869,
+      "retweets": 331,
       "has_media": true,
       "note": "Singapore's festive Deepavali decorations",
       "celebrity": false
@@ -327,7 +366,7 @@
       "name": "Royal Challengers Bengaluru",
       "text": "If RCB players were mithai, who’d be which? 🤔🍮\n\nIt’s Diwali and Venky Iyer has his answers. 👀\n\nThis is Emmvee presents RCB Shorts.\n\n#PlayBold #ನಮ್ಮRCB https://t.co/zXCrC7cZNL",
       "created_at": "2026-11-08T14:41:56.000Z",
-      "likes": 1867,
+      "likes": 1866,
       "retweets": 63,
       "has_media": true,
       "note": "RCB imagines its players as Diwali mithai",
@@ -340,8 +379,8 @@
       "name": "Rajasthan Royals",
       "text": "Happy Bhai Dooj 💗😛 https://t.co/aooW4jbw3V",
       "created_at": "2026-11-11T06:23:22.000Z",
-      "likes": 1421,
-      "retweets": 6,
+      "likes": 1422,
+      "retweets": 33,
       "has_media": true,
       "note": "Rajasthan Royals' playful Happy Bhai Dooj",
       "celebrity": false
@@ -354,7 +393,7 @@
       "text": "diwali inspo moodbord 🫰\n\n#MaheshBabu #MrunalThakur https://t.co/3QjkArgasA",
       "created_at": "2026-11-09T14:40:50.000Z",
       "likes": 1389,
-      "retweets": 202,
+      "retweets": 203,
       "has_media": true,
       "note": "Prime Video's Diwali inspo moodboard",
       "celebrity": false
@@ -366,8 +405,8 @@
       "name": "Punjab Kings",
       "text": "Sadde shers di Diwali wali jhalak 🪔😍 https://t.co/OIwEEb5FWU",
       "created_at": "2026-11-09T10:06:03.000Z",
-      "likes": 1212,
-      "retweets": 27,
+      "likes": 1211,
+      "retweets": 30,
       "has_media": true,
       "note": "Punjab Kings' Diwali glimpses",
       "celebrity": false
@@ -399,16 +438,16 @@
       "celebrity": false
     },
     {
-      "id": "2122691642293690751",
-      "url": "https://x.com/NHSGrampian/status/2122691642293690751",
-      "username": "NHSGrampian",
-      "name": "NHS Grampian",
-      "text": "🪔 Celebrating #Diwali at NHS Grampian! ✨\n\nOur EDI team brought the festival of lights to Orange Zone Cafe at ARI today!\n\n🔗 Read more: https://t.co/wgyDhG9VJV \n\nHappy Diwali, or Shubh Deepavali, to all who celebrate! 💛 \n\n#ProudToBeNHSG #TeamGrampian https://t.co/uKVV2am9kA",
-      "created_at": "2026-11-17T14:01:39.000Z",
-      "likes": 1,
-      "retweets": 1,
+      "id": "2122657183154467260",
+      "url": "https://x.com/uptourismgov/status/2122657183154467260",
+      "username": "uptourismgov",
+      "name": "UP Tourism",
+      "text": "7 DAYS TO GO FOR DEV DEEPAWALI\n\nSoon, countless diyas will illuminate the ghats of Varanasi, turning the city into a breathtaking spectacle of light, devotion and divine grandeur.\n\n24 November 2026 | Varanasi\n\n#DevDeepawali2026 #Kashi #Varanasi #FestivalOfLights #UPTourism https://t.co/IrezwlgKRc",
+      "created_at": "2026-11-17T11:44:44.000Z",
+      "likes": 74,
+      "retweets": 56,
       "has_media": true,
-      "note": "Scottish health board's hospital team marks Diwali with a festival-of-lights café celebration",
+      "note": "UP Tourism previews Dev Deepawali in Varanasi on 24 November, when thousands of diyas light the ghats",
       "celebrity": false
     }
   ],
